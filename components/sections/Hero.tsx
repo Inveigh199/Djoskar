@@ -15,32 +15,34 @@ export default function Hero() {
             <div className="relative z-20 text-center px-6 max-w-5xl mx-auto mt-20">
 
 
-                <h1 className="md:text-8xl lg:text-9xl leading-[0.9] text-6xl font-semibold text-white tracking-tighter mb-8 animate-fade-up">
+                <h1 className="md:text-8xl lg:text-9xl leading-[0.9] text-5xl sm:text-6xl font-semibold text-white tracking-tighter mb-8 animate-fade-up break-words w-full">
                     Stwórzmy razem<br />
                     <span className="bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-500">
                         niezapomniane wesele
                     </span>
                 </h1>
 
-                <p className="md:text-xl leading-relaxed text-lg font-light text-neutral-400 max-w-2xl mx-auto mb-10 animate-fade-up">
+                <p className="md:text-xl leading-relaxed text-base sm:text-lg font-light text-neutral-400 max-w-2xl mx-auto mb-10 animate-fade-up">
                     Ekskluzywna oprawa muzyczna i wizualna wesel. Nowoczesne podejście, brak przaśnych zabaw, tylko czysta klasa i pełen parkiet do samego rana.
                 </p>
 
-                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up">
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up w-full">
                     <a
                         href="#contact"
-                        className="group relative px-8 py-4 bg-white text-black text-sm font-semibold tracking-wide overflow-hidden rounded-sm transition-all hover:pr-10"
+                        className="group relative flex items-center justify-center px-8 py-4 bg-white text-black text-sm font-semibold tracking-wide overflow-hidden rounded-sm transition-all w-full sm:w-auto max-w-[280px] sm:max-w-none"
                     >
-                        <span className="z-10 relative">Skontaktuj się</span>
+                        <span className="z-10 relative flex items-center gap-2">
+                            Skontaktuj się
+                            <ArrowUpRight
+                                size={14}
+                                className="opacity-0 group-hover:opacity-100 -mr-4 group-hover:mr-0 transition-all duration-300"
+                            />
+                        </span>
                         <div className="absolute inset-0 bg-neutral-200 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out z-0" />
-                        <ArrowUpRight
-                            size={12}
-                            className="absolute right-3 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-all duration-300 z-10"
-                        />
                     </a>
                     <a
                         href="#portfolio"
-                        className="group hover:bg-white/5 transition-all text-sm font-medium text-white tracking-wide border-white/10 border rounded-sm pt-4 px-8 pb-4 backdrop-blur-sm"
+                        className="group flex items-center justify-center hover:bg-white/5 transition-all w-full sm:w-auto max-w-[280px] sm:max-w-none text-sm font-medium text-white tracking-wide border-white/10 border rounded-sm py-4 px-8 backdrop-blur-sm"
                     >
                         Oferta
                     </a>
