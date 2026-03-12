@@ -21,18 +21,16 @@ export default function Vision() {
                             <span className="text-neutral-500">i tworzenia niezwykłych wspomnień. </span>
                         </h2>
                         <p className="leading-relaxed font-light text-neutral-400 mb-8">
-                            Cześć! Jestem Ozi. Od ponad dekady zajmuję się profesjonalną oprawą muzyczną wydarzeń, z czego lwią część stanowią ekskluzywne wesela. Moim celem nie jest po prostu &quot;odtwarzanie muzyki&quot;, ale budowanie emocji i sterowanie energią tłumu.
-                            <br /><br />
-                            Wyróżnia mnie nowoczesne podejście. Unikam szablonów i przaśnych zabaw, stawiając na elegancję, świetną selekcję muzyczną oraz nienaganną prezencję.
-                        </p>
+                            Cześć! Jestem Oskar. Od 2016 roku działam w branży weselnej, zajmując się tworzeniem niezapomnianych wesel poprzez oprawę muzyczną oraz prowadzenie zabaw i konkursów tanecznych. Moim celem nie jest po prostu "odtwarzanie muzyki", ale budowanie emocji i sterowanie energią tłumu, tak aby Wasze wesela były niezapomniane i przez lata były dobrze wspominane wśród rodziny i znajomych!                            <br /><br />
+                            Wyróżnia mnie nowoczesne podejście. Unikam szablonów i cringe’owych zabaw, stawiając na elegancję, świetną selekcję muzyczną oraz prowadzenie wesela zgodnie z jego dynamiką i wykorzystując każdy moment na rozkręcenie pozytywnej energii na parkiecie.                        </p>
                         <div className="grid grid-cols-2 gap-8 pt-8 border-t border-white/10">
                             <div>
                                 <span className="block text-3xl font-bold text-white mb-1">10+</span>
                                 <span className="uppercase text-xs text-neutral-500 tracking-widest">Lat doświadczenia</span>
                             </div>
                             <div>
-                                <span className="block text-3xl font-bold text-white mb-1">100+</span>
-                                <span className="uppercase text-xs text-neutral-500 tracking-widest">Zrealizowanych wesel</span>
+                                <span className="block text-3xl font-bold text-white mb-1">+200</span>
+                                <span className="uppercase text-xs text-neutral-500 tracking-widest">Wesel i ciągle rośnie</span>
                             </div>
                         </div>
                     </motion.div>

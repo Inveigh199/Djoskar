@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Instagram, ArrowRight, Loader2, CheckCircle2 } from "lucide-react";
+import { Mail, Instagram, Facebook, ArrowRight, Loader2, CheckCircle2 } from "lucide-react";
 import { useState } from "react";
 
 export default function Contact() {
@@ -76,6 +76,15 @@ export default function Contact() {
                             <div>
                                 <span className="block text-xs text-neutral-500 uppercase tracking-widest mb-1">Obserwuj</span>
                                 <span className="text-xl font-medium">@oskar.lakomy</span>
+                            </div>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61586400741244" target="_blank" className="group flex items-center gap-6 text-white hover:text-yellow-500 transition-colors">
+                            <div className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center group-hover:border-yellow-500 transition-colors">
+                                <Facebook size={20} />
+                            </div>
+                            <div>
+                                <span className="block text-xs text-neutral-500 uppercase tracking-widest mb-1">Facebook</span>
+                                <span className="text-xl font-medium">Oskar Łakomy</span>
                             </div>
                         </a>
                     </div>

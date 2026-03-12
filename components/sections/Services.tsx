@@ -8,7 +8,7 @@ const services: Service[] = [
     { icon: <Camera />, title: "Fotobudka", desc: "Uchwyć chwile radości w najwyższej jakości." },
     { icon: <Zap />, title: "Fontanna Iskier", desc: "Spektakularne zimne ognie na pierwszy taniec." },
     { icon: <Wind />, title: "Niski Dym", desc: "Taniec w chmurach – efektowna oprawa wizualna." },
-    { icon: <Heart />, title: "Biały Miś", desc: "Niespodzianka i atrakcja dla gości oraz dzieci." },
+    { icon: <Heart />, title: "Loventure", desc: "Współpracuję z parą fotografów i filmowców." },
     { icon: <Truck />, title: "Transport Gości", desc: "Bezpieczny powrót dla Twoich bliskich." },
     { icon: <Music />, title: "Oprawa Muzyczna", desc: "Najlepsze brzmienia do samego rana." },
 ];
