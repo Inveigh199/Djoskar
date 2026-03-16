@@ -25,7 +25,7 @@ export default function Gallery() {
                         <img
                             src={img.src}
                             alt={img.label}
-                            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-60 group-hover:opacity-100 filter grayscale group-hover:grayscale-0"
+                            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-100 md:opacity-60 md:group-hover:opacity-100 md:grayscale group-hover:grayscale-0"
                         />
                         <div className="absolute bottom-4 left-4 bg-black/60 backdrop-blur-md px-3 py-1 text-[10px] text-white uppercase tracking-widest border border-white/10 opacity-0 group-hover:opacity-100 transition-opacity">
                             {img.label}

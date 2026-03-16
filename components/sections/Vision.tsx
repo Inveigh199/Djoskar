@@ -46,7 +46,7 @@ export default function Vision() {
                             <img
                                 src="/images/about-main.png"
                                 alt="Pierwszy taniec w chmurach"
-                                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80 group-hover:opacity-100 filter grayscale group-hover:grayscale-0"
+                                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-100 md:opacity-80 md:group-hover:opacity-100 md:grayscale group-hover:grayscale-0"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-100 transition-opacity duration-300" />
                             <div className="absolute bottom-6 left-6">
@@ -67,7 +67,7 @@ export default function Vision() {
                                     <img
                                         src={item.img}
                                         alt={item.title}
-                                        className="transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 opacity-80 w-full h-full object-cover grayscale group-hover:grayscale-0"
+                                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-100 md:opacity-80 md:group-hover:opacity-100 md:grayscale group-hover:grayscale-0"
                                     />
                                     <div className="absolute bottom-6 left-6">
                                         <h3 className="text-xl font-medium text-white tracking-tight">{item.title}</h3>
