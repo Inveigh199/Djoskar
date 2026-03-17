@@ -41,7 +41,10 @@ export default function Hero() {
                         <div className="absolute inset-0 bg-neutral-200 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out z-0" />
                     </a>
                     <a
-                        href="#portfolio"
+                        href="/OfertaWeselna-DJOskar.pdf"
+                        target="_blank"           // Otwiera PDF w nowej karcie (użytkownik nie traci Twojej strony)
+                        rel="noopener noreferrer" // Standard bezpieczeństwa przy otwieraniu nowych kart
+                        download                  // Sugeruje przeglądarce pobranie pliku zamiast tylko podglądu
                         className="group flex items-center justify-center hover:bg-white/5 transition-all w-full sm:w-auto max-w-[280px] sm:max-w-none text-sm font-medium text-white tracking-wide border-white/10 border rounded-sm py-4 px-8 backdrop-blur-sm"
                     >
                         Oferta
