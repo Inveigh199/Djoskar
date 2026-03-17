@@ -11,8 +11,8 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "DJ OZI | Ekskluzywna Oprawa Muzyczna",
-  description: "Wymarzony dzień, niezapomniana noc. Ekskluzywna oprawa muzyczna i wizualna wesel.",
+  title: 'DJ Oskar | Ekskluzywna Oprawa Muzyczna Wesel i Eventów',
+  description: "Wymarzony dzień, niezapomniana noc. Ekskluzywna oprawa muzyczna i wizualna wesPlanujesz wymarzone wesele? DJ Oskar to ekskluzywna oprawa muzyczna i wizualna, która zachwyci Twoich gości. Nowoczesne podejście, klasa i parkiet pełen energii.",
 };
 
 export default function RootLayout({
