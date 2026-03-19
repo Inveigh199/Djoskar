@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
 // Zmieniona ścieżka na relatywną (wychodzimy z app i wchodzimy do components)
 import CookieBanner from "../components/CookieBanner";
 

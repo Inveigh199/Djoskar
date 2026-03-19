@@ -6,7 +6,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { name, email, venue, message } = body;
+    const { name, email, date, venue, message } = body;
 
     if (!name || !email || !message) {
       return NextResponse.json(
@@ -16,8 +16,8 @@ export async function POST(request: Request) {
     }
 
     const data = await resend.emails.send({
-      from: 'Nowa Wiadomość ze Strony <onboarding@resend.dev>', // You should change this to a verified domain if possible
-      to: ['zlota4dev@gmail.com'], // The email where the message will be sent
+      from: 'Nowa Wiadomość ze Strony <kontakt@djoskar.pl>', // You should change this to a verified domain if possible
+      to: ['oskarlakomy1515@gmail.com'], // The email where the message will be sent
       subject: `Wiadomość ze strony od: ${name}`,
       replyTo: email,
       html: `
@@ -25,6 +25,7 @@ export async function POST(request: Request) {
           <h2>Nowe zapytanie o kontakt!</h2>
           <p><strong>Imię:</strong> ${name}</p>
           <p><strong>Email:</strong> ${email}</p>
+          <p><strong>Data:</strong> ${date}</p>
           <p><strong>Miejsce wesela:</strong> ${venue || 'Nie podano'}</p>
           <p><strong>Wiadomość:</strong></p>
           <p>${message.replace(/\n/g, '<br/>')}</p>
